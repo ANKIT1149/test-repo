@@ -1,9 +1,9 @@
 function hello(name) {
   console.log("Hello " + name)
-  const a=90
-  const b=1040
-  let c=850
-  let d=350
+  const a=80
+  const b=140
+  let c=1150
+  let d=1350
   console.log(a+b, c*d)
   console.log("Here is the calculation is done")
 }
