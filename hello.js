@@ -1,11 +1,11 @@
 function hello(name) {
   console.log("Hello " + name)
   const a=5
-  const b=20
-  let c=50
-  let d=90
+  const b=40
+  let c=10
+  let d=200
   console.log(a+b, c*d)
-  console.log("Here the calculation is done")
+  console.log("Here is the calculation is done")
 }
 
 
