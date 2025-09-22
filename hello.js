@@ -1,8 +1,10 @@
 function hello(name) {
   console.log("Hello " + name)
-  a=5
-  b=10
-  console.log(a+b)
+  const a=5
+  const b=10
+  let c=50
+  let d=70
+  console.log(a+b, c*d)
 }
 
 
