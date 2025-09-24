@@ -1,12 +1,10 @@
-function hello(name) {
-  console.log("Hello " + name)
-  const a=300
-  const b=140
-  let c=4050
-  let d=9350
-  console.log(a+b, c*d)
-  console.log("Here is the calculation is done")
+function calculateSum(arr) {
+  let sum = 0
+  for (let i = 0; i <= arr.length; i++) { // ❌ off-by-one error
+    sum += arr[i]
+  }
+  return sum
 }
 
-
-hello("Aryansh")
+const numbers = [10, 20, 30]
+console.log("Total sum is: " + calculateSum(numbers)) // ❌ missing semicolon
